@@ -1,9 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Stream;
 
-public class SecondStream {
+public class SecondMain {
 
     public static void main(String[] args) {
         Person oleg = new Person("Oleg", "Marina", "Fedor");
