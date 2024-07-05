@@ -47,7 +47,7 @@ public class Main {
 
 //        List<Car> result4 = cars.stream()
 //                .flatMap(x -> Stream.of(x.getType().startsWith("W"),x.getType().startsWith("V"))
-//                        .flatMap(y->y.describeConstable().stream())
+//
 //                                .map(odo->odo.)
 //
 ////                .filter(odo->odo<4)
