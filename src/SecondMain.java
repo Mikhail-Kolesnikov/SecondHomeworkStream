@@ -26,18 +26,7 @@ public class SecondMain {
 
     }
 
-    //ist<Integer> integer = strings.stream()
-    //                .map(str -> str.length())
-    //                .filter(x -> x % 2 == 0)
-    //                .toList();
-    //        System.out.println(integer);
-    //
-    //        //найти те имена, которые имеют четное колво букв
-    //
-    //        List<String> names = strings.stream()
-    //                .filter(str -> str.length() % 2 == 0)
-    //                .toList();
-    //        System.out.println(names);
+
 }
 
 
