@@ -38,11 +38,13 @@ public class Main {
 
         System.out.println(result2.get());
 
-         List<Car> result3 = cars.stream()
-                .filter(x -> x.getType().startsWith("W")||x.getType().startsWith("V"))
-//                 .max(Comparator.comparingInt(x->x.getOdo()))
+        Optional<Car> result3 = cars.stream()
+                .filter(x -> x.getType().startsWith("W") || x.getType().startsWith("V"))
+//
                 .filter(x -> x.getOdo() <= 200_000)
-                .toList();
+                .max(Comparator.comparingInt(x->x.getOdo()));
+
+
 
 
 //        List<Car> result4 = cars.stream()
@@ -52,11 +54,10 @@ public class Main {
 //
 ////                .filter(odo->odo<4)
 
-        System.out.println(result3);
+        System.out.println(result3.get());
 
     }
 }
-
 
 
 //////1.1 Создайте класс "Машина"
